@@ -1,0 +1,397 @@
+
+	INT: int 
+	VARIABLE: x 
+	ASSIGNOP: = 
+	INTEGER: 0x10AF89 
+	DELIMITER: ; 
+	### Line: 4 - Declaration and Assignment
+
+	FUNC: func 
+	VARIABLE: main 
+	LP: ( 
+	RP: ) 
+	LSB: { 
+	STRING: string 
+	VARIABLE: t 
+	ASSIGNOP: = 
+	STRING: "test" 
+	DELIMITER: ; 
+	### Line: 6 - Declaration and Assignment
+
+	INT: int 
+	VARIABLE: i 
+	DELIMITER: ; 
+	### Line: 7 - Declaration
+
+	SHORT: short 
+	VARIABLE: f 
+	DELIMITER: ; 
+	### Line: 8 - Declaration
+
+	LONG: long 
+	VARIABLE: n 
+	DELIMITER: ; 
+	### Line: 9 - Declaration
+
+	FLOAT: float 
+	VARIABLE: b 
+	DELIMITER: ; 
+	### Line: 10 - Declaration
+
+	DOUBLE: double 
+	VARIABLE: j 
+	DELIMITER: ; 
+	### Line: 11 - Declaration
+
+	VARIABLE: pin1 
+	ASSIGNOP: = 
+	LB: [ 
+	INTEGER: 1 
+	COMMA: , 
+	INTEGER: 2 
+	COMMA: , 
+	INTEGER: 3 
+	COMMA: , 
+	INTEGER: 4 
+	COMMA: , 
+	INTEGER: 5 
+	RB: ] 
+	DELIMITER: ; 
+	### Line: 13 - Int array Assignment
+
+	VARIABLE: pin2 
+	ASSIGNOP: = 
+	LB: [ 
+	FLOAT: 1.2 
+	COMMA: , 
+	FLOAT: 2.3 
+	COMMA: , 
+	FLOAT: 3.4 
+	COMMA: , 
+	FLOAT: 4.5 
+	COMMA: , 
+	FLOAT: 5.6 
+	RB: ] 
+	DELIMITER: ; 
+	### Line: 14 - Float array Assignment
+
+	VARIABLE: pin3 
+	ASSIGNOP: = 
+	LB: [ 
+	STRING: "a" 
+	COMMA: , 
+	STRING: "b" 
+	RB: ] 
+	DELIMITER: ; 
+	### Line: 15 - String array Assignment
+
+	VARIABLE: pin4 
+	ASSIGNOP: = 
+	LB: [ 
+	VARIABLE: a 
+	COMMA: , 
+	VARIABLE: b 
+	COMMA: , 
+	VARIABLE: c 
+	RB: ] 
+	DELIMITER: ; 
+	### Line: 16 - Variable array Assignment
+
+	SCAN: scan 
+	LP: ( 
+	VARIABLE: x 
+	RP: ) 
+	DELIMITER: ; 
+	### Line: 17 - Scan function
+
+	LEN: len 
+	LP: ( 
+	STRING: "compilers" 
+	RP: ) 
+	### Line: 19 - String Length
+
+	DELIMITER: ; 
+	LEN: len 
+	LP: ( 
+	LB: [ 
+	INTEGER: 1 
+	COMMA: , 
+	INTEGER: 2 
+	COMMA: , 
+	INTEGER: 3 
+	COMMA: , 
+	INTEGER: 4 
+	COMMA: , 
+	INTEGER: 5 
+	RB: ] 
+	RP: ) 
+	### Line: 20 - Int array Length
+
+	DELIMITER: ; 
+	LEN: len 
+	LP: ( 
+	VARIABLE: a 
+	RP: ) 
+	### Line: 21 - Variable Length
+
+	DELIMITER: ; 
+	CMP: cmp 
+	LP: ( 
+	STRING: "test" 
+	COMMA: , 
+	STRING: "best" 
+	RP: ) 
+	### Line: 23 - Strings comparison
+
+	DELIMITER: ; 
+	CMP: cmp 
+	LP: ( 
+	VARIABLE: a 
+	COMMA: , 
+	VARIABLE: b 
+	RP: ) 
+	### Line: 24 - Variables comparison
+
+	DELIMITER: ; 
+	VARIABLE: i 
+	ASSIGNOP: = 
+	INTEGER: 0 
+	DELIMITER: ; 
+	### Line: 26 - Int value assignment
+
+	WHILE: while 
+	LP: ( 
+	VARIABLE: i 
+	LESSTHAN: < 
+	INTEGER: 10 
+	RP: ) 
+	LSB: { 
+	PRINT: print 
+	LP: ( 
+	STRING: "i is: " 
+	COMMA: , 
+	VARIABLE: i 
+	RP: ) 
+	DELIMITER: ; 
+	### Line: 28 - String with variable print
+
+	VARIABLE: i 
+	PLUSPLUS: ++ 
+	DELIMITER: ; 
+	### Line: 29 - Counter assignment
+
+	RSB: } 
+	### Line: 30 - While loop
+
+	FOR: for 
+	LP: ( 
+	VARIABLE: i 
+	ASSIGNOP: = 
+	INTEGER: 0 
+	DELIMITER: ; 
+	### Line: 32 - Int value assignment
+
+	VARIABLE: i 
+	LESSTHAN: < 
+	VARIABLE: x 
+	DELIMITER: ; 
+	### Line: 32 - Comparison
+
+	RP: ) 
+	LSB: { 
+	IF: if 
+	LP: ( 
+	VARIABLE: x 
+	EQUALTO: == 
+	INTEGER: 0x30089 
+	RP: ) 
+	LSB: { 
+	PRINT: print 
+	LP: ( 
+	VARIABLE: Array 
+	RP: ) 
+	DELIMITER: ; 
+	### Line: 34 - Variable print
+
+	RSB: } 
+	### Line: 37 - If function
+
+	RSB: } 	Warning line 38, For Syntax
+
+	FOR: for 
+	LP: ( 
+	VARIABLE: i 
+	ASSIGNOP: = 
+	INTEGER: 0 
+	DELIMITER: ; 
+	### Line: 39 - Int value assignment
+
+	VARIABLE: i 
+	LESSTHAN: < 
+	INTEGER: 32 
+	DELIMITER: ; 
+	### Line: 39 - Comparison
+
+	VARIABLE: i 
+	PLUSPLUS: ++ 
+	RP: ) 
+	### Line: 39 - For loop expression assignment
+
+	LSB: { 
+	RSB: } 
+	### Line: 39 - For loop
+
+	STRING: strin 	Warning line 41, Did you want to type 'string'?
+
+	VARIABLE: c 
+	DELIMITER: ; 
+	### Line: 41 - Declaration
+
+	INT: int 
+	VARIABLE: 0var 	Warning line 42, Wrong Variable Naming
+
+	DELIMITER: ; 
+	### Line: 42 - Declaration
+
+	FLOAT: floa 	Warning line 43, Did you want to type 'float'?
+
+	VARIABLE: d 
+	DELIMITER: ; 
+	### Line: 43 - Declaration
+
+	SHORT: shor 	Warning line 44, Did you want to type 'short'?
+
+	VARIABLE: a 
+	DELIMITER: ; 
+	### Line: 44 - Declaration
+	Warning line 45, forgot to Close Comment?
+
+	PRINT: print 
+	LP: ( 
+	RP: ) 
+	DELIMITER: ; 	Warning line 48, Empty Print
+
+	CMP: cmp 
+	LP: ( 
+	RP: ) 	Warning line 49, Empty Cmp
+
+	DELIMITER: ; 
+	SCAN: scan 
+	LP: ( 
+	RP: ) 
+	DELIMITER: ; 	Warning line 50, Scan Empty
+
+	WHILE: while 
+	LP: ( 
+	RP: ) 
+	LSB: { 
+	RSB: } 	Warning line 51, While Empty
+
+	FUNC: func Error: syntax error
+
+	VARIABLE: fun 
+	LP: ( 
+	INT: int 
+	VARIABLE: b 
+	RP: ) 
+	LSB: { 
+	RSB: } 
+	### Line: 54 - Function
+
+	PRINT: print 
+	LP: ( 
+	VARIABLE: x 
+	DELIMITER: ; Error: syntax error
+
+	VARIABLE: scanx 
+	RP: ) Error: syntax error
+
+	DELIMITER: ; 
+	PRINT: print 
+	LP: ( 
+	LEN: len 
+	LP: ( 
+	STRING: "function" 
+	RP: ) 
+	### Line: 57 - String Length
+
+	DELIMITER: ; Error: syntax error
+
+	IF: if 
+	LP: ( 
+	LSB: { Error: syntax error
+
+	RSB: } 	ERROR, line 61 |'@': Unrecognized.
+	ERROR, line 62 |'!': Unrecognized.
+	ERROR, line 63 |'#': Unrecognized.
+	ERROR, line 64 |'^': Unrecognized.
+	ERROR, line 65 |'&': Unrecognized.
+
+	RSB: } Error: syntax error
+
+	PRINT: print 
+	LP: ( 
+	LEN: len 
+	LP: ( 
+	STRING: "test" 
+	RP: ) 
+	### Line: 71 - String Length
+
+	RP: ) 
+	DELIMITER: ; 
+	### Line: 71 - Len print
+
+	PRINT: print 
+	LP: ( 
+	CMP: cmp 
+	LP: ( 
+	VARIABLE: str1 
+	COMMA: , 
+	VARIABLE: str2 
+	RP: ) 
+	### Line: 72 - Variables comparison
+
+	RP: ) 
+	DELIMITER: ; 
+	### Line: 72 - Cmp print
+
+	PRINT: print 
+	LP: ( 
+	VARIABLE: x 
+	COMMA: , 
+	STRING: "=" 
+	COMMA: , 
+	VARIABLE: y 
+	RP: ) 
+	DELIMITER: ; 
+	### Line: 73 - Variable, String and Value print
+
+	VARIABLE: x1 
+	COMMA: , 
+	VARIABLE: list1 
+	COMMA: , 
+	VARIABLE: str 
+	ASSIGNOP: = 
+	INTEGER: 0 
+	COMMA: , 
+	LB: [ 
+	VARIABLE: A 
+	COMMA: , 
+	VARIABLE: B 
+	RB: ] 
+	COMMA: , 
+	STRING: "HELLO" 
+	DELIMITER: ; 
+	### Line: 73 - MultiExpression assignment
+
+	# FATAL ERROR! # | Didn't Close Comment
+==========================================
+CORRECT WORDS: 117						||
+CORRECT SYNTAX: 38						||
+WORD ERRORS: 5							||
+SYNTAX ERRORS: 6						||
+----------------------------------------||
+WORD WARNINGS: 5						||
+SYNTAX WARNINGS: 5						||
+==========================================
+PARSING FAILED.

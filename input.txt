@@ -1,0 +1,75 @@
+/* This code is an example. */
+// Created to showcase how "Bison.y", in combination with "Flex.l", works on various occasions.
+/* Beneath lies a manually generated simple code: */
+int x = 0x10AF89;
+func main () {
+	string t = "test";
+	int i;
+	short f;
+	long n;
+	float b;
+	double j;
+
+	pin1 = [1, 2, 3, 4, 5];
+	pin2 = [1.2, 2.3, 3.4, 4.5, 5.6];
+	pin3 = ["a", "b"];
+	pin4 = [a, b, c];
+	scan(x);
+
+	len("compilers");
+	len([1, 2, 3, 4, 5]);
+	len(a);
+
+	cmp("test", "best");
+	cmp(a, b);
+
+	i = 0;
+	while (i < 10) {
+ 	print("i is: ", i);
+ 	i++ ;
+	} 
+	// Syntax Warning for format
+	for  (i = 0 ; i < x;) {
+		if  (x == 0x30089){
+			print (Array); 
+			// "Print" is not considered a keyword.
+			// Therefore, it will display as a variable.
+		}
+	}
+	for(i=0;i<32;i++){}
+	/* Verbal warnings */
+	strin c;
+	int 0var;
+	floa  d;
+	shor a;
+	/*test *
+	/* =============== */
+	/* Syntax warnings */
+	print();
+	cmp();
+	scan();
+	while(){}
+	/* =============== */
+	/* Syntax Errors   */
+	func fun(int b){}
+	print(x;
+	scanx);
+	print(len("function");
+	if({}
+	/* =============== */
+	/* Verbal Errors   */
+	@
+	!
+	#
+	^
+	&
+	/* =============== */
+
+} /* "}" is not considered a valid character, it will display as an unknown token */
+// Since it has not been declared in any Expression declarations in "Flex.l"
+/* This code makes no sense, it's just for show. */
+print(len("test"));
+print(cmp(str1, str2));
+print(x, "=", y); \
+x1, list1, str = 0, [A, B], "HELLO"; 
+/*
