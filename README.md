@@ -7,6 +7,9 @@ This Code presents a funtional verbal analyzer using Flex. This code identifies 
 ### Bison.y
 This Code presents a funtional Syntax analyzer using bison. This Code is an extends the flex code, but also addons, Developing various syntax and expressions while defining warnings erros and Fatal Errors.
 
+### What it does
+Upon successful project compilation, the input.txt file undergoes lexical and syntactic analysis. The output of which is saved in Output.txt
+
 ## How to run
 - In the same directory type:
   <pre>make</pre> 
